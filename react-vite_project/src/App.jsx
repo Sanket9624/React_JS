@@ -1,11 +1,11 @@
 import Hello from "./Hello"
 
 function App() {
-
+  const userName = "SP"
   return (
     <>
-    <h1>react with vite </h1>
     <Hello />
+    <h1>react with vite {userName} </h1>
     </>
   )
 }
