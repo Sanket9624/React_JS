@@ -9,7 +9,7 @@ function App() {
 
   const addCount = () =>{
     if(counter+1>20){
-      alert("Limit Exceeds")
+      alert("Limit Exceed")
     }
     else{
     counter = counter + 1;
